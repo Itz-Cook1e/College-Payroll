@@ -1,5 +1,10 @@
 # Assignment:
-
+# Use an input prompt to ask the user to enter the name, hours worked, and hourly wage for two employees.
+# Calculate the gross pay for each employee.
+# Calculate the total amount of money you need to have.
+# Print out the names, gross pay, and the total.
+# Make sure you include comments with your name, date, and assignment name, as well as brief comments telling me what you're doing.
+    
 # Get data on employee one
 name = input('Please enter an employee name: ')
 hour = input('Hours worked: ')
@@ -32,3 +37,5 @@ print(f"{name}'s gross pay is ${str(wage1)}")
 print(f"{names}'s gross pay is ${str(wage2)}")
 inbank = wage1+wage2
 print(f"Make sure you have ${str(inbank)} in the bank!")
+
+# Comment with name, date, and assignment name redacted
